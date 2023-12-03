@@ -1,1 +1,25 @@
+<style>
+        /* Add your styles here if needed */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        /* Add more styles as needed */
+    </style>
