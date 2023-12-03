@@ -7,7 +7,7 @@
     }
 
     h1 {
-        color: #1c3392;
+        color: #6a5acd; /* Lavender */
     }
 
     label {
@@ -17,7 +17,7 @@
     }
 
     input {
-        width: 100%;
+        width: 80%; /* Smaller width */
         padding: 10px;
         margin: 5px 0;
         box-sizing: border-box;
@@ -29,7 +29,22 @@
 
     input:focus {
         outline: none;
-        border-color: #1c3392;
+        border-color: #6a5acd; /* Lavender */
+    }
+
+    button {
+        width: 80%; /* Smaller width */
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #6a5acd; /* Lavender */
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    button:hover {
+        background-color: #4b0082; /* Darker lavender on hover */
     }
 
     /* Add more styles as needed */
