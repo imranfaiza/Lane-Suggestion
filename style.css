@@ -2,49 +2,54 @@
     body {
         font-family: 'Arial', sans-serif;
         margin: 20px;
-        background-color: #f4f4f4;
+        background-color: #6a5acd; /* Lavender background */
         color: #333;
     }
 
     h1 {
-        color: #6a5acd; /* Lavender */
+        /* Removed color for the title */
     }
 
     label {
         display: block;
         margin: 10px 0;
-        color: #555;
+        color: #fff; /* White text for better contrast */
     }
 
     input {
-        width: 80%; /* Smaller width */
+        width: 60%; /* Smaller width */
         padding: 10px;
         margin: 5px 0;
         box-sizing: border-box;
         border: 1px solid #ccc;
         border-radius: 5px;
         background-color: #fff;
-        
+        color: #333; /* Text color inside the input */
+        transition: border-color 0.3s ease-in-out;
     }
 
     input:focus {
         outline: none;
-        border-color: #6a5acd; /* Lavender */
+        border-color: #6a5acd; /* Lavender border on focus */
     }
 
     button {
-        width: 80%; /* Smaller width */
+        width: 60%; /* Smaller width */
         padding: 10px;
         border: none;
         border-radius: 5px;
-        background-color: #6a5acd; /* Lavender */
+        background-color: #4b0082; /* Darker lavender */
         color: #fff;
         cursor: pointer;
         transition: background-color 0.3s ease-in-out;
     }
 
     button:hover {
-        background-color: #4b0082; /* Darker lavender on hover */
+        background-color: #2e0854; /* Darker shade on hover */
+    }
+
+    footer {
+        color: #fff; /* Text color in the footer */
     }
 
     /* Add more styles as needed */
